@@ -22,7 +22,7 @@ post
 {
 always
 {
-slackSend channel: 'slacknotification', message: 'Please find the pipeline status below ${env.JOB_NAME} ${env.BUILD_NUMBER} ${env.BUILD_URL}'
+slackSend channel: 'slacknotification', message: "Please find the pipeline status below ${env.JOB_NAME} ${env.BUILD_NUMBER} ${env.BUILD_URL}"
 }
 }
 }
